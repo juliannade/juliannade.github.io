@@ -1,0 +1,14 @@
+.header-img{
+  background-image: url(../img/broadway/header.jpg);
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .header-img{
+    background-position: center;
+  }
+
+}

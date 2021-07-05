@@ -1,0 +1,14 @@
+.header-img{
+  background-image: url(../img/ysa/heroysa2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #F2F0F1;
+}
+
+
+
+
+.arrows{
+  left: 80%;
+}
