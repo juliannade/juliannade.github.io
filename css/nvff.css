@@ -1,0 +1,26 @@
+@media (min-width: 320px) and (max-width: 360px),
+(max-height: 670px)  {
+
+
+
+  .ml-10{
+
+    margin-left: 0;
+  }
+
+  h1{
+    font-size: 1.5rem;
+  }
+
+  h2{
+    font-size: 1.3rem;
+  }
+  h3{
+    font-size: 1.2rem;
+  }
+
+  h4{
+    font-size: 1.3rem;
+  }
+
+}
