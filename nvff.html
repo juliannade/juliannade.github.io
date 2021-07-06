@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="css/project.css">
       <link rel="stylesheet" href="css/nvff.css">
       <link rel="stylesheet" href="css/animsition.min.css">
+      <link rel="stylesheet" href="css/mobile-nav.css">
 
     <title>Napa Valley Film Festival</title>
   </head>
   <body>
     <div class="animsition"  data-animsition-in-class="fade-in"
   data-animsition-in-duration="1000">
+  <div class="d-none d-md-block">
     <nav class="navbar bg-white fixed-top">
     <a class="navbar-brand animsition-link" href="index.html">
       <img src="img/logo.png" width="30" height="30" alt="" loading="lazy">
@@ -42,7 +44,34 @@
 
 </ul>
   </nav>
+</div>
 
+  <div class="pindow d-block d-md-none">
+    <div class="header">
+      <div class="burger-container">
+        <div id="burger">
+          <div class="bar topBar"></div>
+          <div class="bar btmBar"></div>
+        </div>
+      </div>
+      <div class="icon icon-apple"> <a href="index.html"><img src="img/logo.png" width="30" height="30" alt="" loading="lazy"></a> </div>
+      <ul class="menu">
+
+  <li class="menu-item">
+
+  <a href="sct.html"> <img src="img/menu/sct-menu.jpg" class="mx-auto d-block" alt=""> <h6>Santa Clara Tower</h6></a>
+    </li>
+        <li class="menu-item"><a href="ccc.html"> <img src="img/menu/ccc-menu.jpg" class="mx-auto d-block" alt=""><h6>Century City Center</h6></a></li>
+        <li class="menu-item mx-auto"><a href="broadway-1000.html"> <img src="img/menu/broadway-menu.jpg" class="mx-auto d-block" alt=""><h6>1000 Broadway</h6></a></li>
+        <li class="menu-item"><a href="moffett.html"><img src="img/menu/moffett-menu.jpg" class="mx-auto d-block" alt=""><h6>Moffett Point</h6></a></li>
+        <li class="menu-item"><a href="nvff.html"><img src="img/menu/nvff-menu.jpg" class="mx-auto d-block" alt=""><h6>Napa Valley Film Festival</h6></a></li>
+        <li class="menu-item"><a href="ysa.html"><img src="img/menu/ysa-menu.jpg" class="mx-auto d-block" alt=""><h6>Youth Spirit Artworks</h6></a></li>
+
+      </ul>
+      <div class="shop icon icon-bag"><a href="about.html"> About</a></div>
+    </div>
+
+  </div>
   <div class="container-fluid w-100 vh-100 d-flex b-lazy justify-content-center align-items-lg-center align-items-end header-img" data-src="img/nvff/header_new2_nvff.jpg">
     <div class="row" style="width:1140px;">
       <div class="col-12">
@@ -240,6 +269,15 @@ window.bLazy = new Blazy({
     console.log("Element loaded: ", element.nodeName);
   }
 });
+
+(function(){
+    var burger = document.querySelector('.burger-container'),
+        header = document.querySelector('.header');
+
+    burger.onclick = function() {
+        header.classList.toggle('menu-opened');
+    }
+}());
 </script>
 
 

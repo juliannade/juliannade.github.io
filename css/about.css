@@ -96,4 +96,13 @@ h1 {
   font-size: 3.2rem;
 }
 
+li h6 {
+  margin-top: 10px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #464b50;
+}
+
 }
