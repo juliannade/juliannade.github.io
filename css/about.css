@@ -58,6 +58,10 @@ p {
   margin-bottom: 10px;
 }
 
+.dropdown-item img{
+  height: 70px;
+}
+
 .nav{
   margin-right: 130px;
 }
