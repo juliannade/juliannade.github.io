@@ -17,12 +17,18 @@ h1{
   margin-bottom: 3.5rem;
 }
 
-h6{
-  font-size: .8rem;
+h6, h5{
+  font-size: .9rem;
   margin-top:1rem;
   font-weight: 300;
   color: #757a7f;
   margin-left:10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h5 {
+
+
 }
 
 
