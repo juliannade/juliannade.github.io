@@ -40,7 +40,8 @@ a {
   font-family: 'Quicksand', sans-serif;
 }
 
-
+.dropdown-item:active {background: #ffffff !important; }
+.dropdown-item:focus {background: #ffffff!important; }
 
 .header-img{
 

@@ -81,6 +81,10 @@ a {
 
 }
 
+.dropdown-item:active {background: #ffffff !important; color: #000;}
+.dropdown-item:focus {background: #ffffff!important; color:#000; }
+
+
 .nav{
   margin-right: 50px;
 }
@@ -158,6 +162,12 @@ font-weight: 500;
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+
 
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
