@@ -137,6 +137,9 @@ li h6{
   transition-delay: 0.25s;
 }
 
+body.content-hidden{
+  overflow: hidden;
+}
 
 .pindow .header.menu-opened .burger-container {
   transform: rotate(90deg);
