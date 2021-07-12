@@ -63,7 +63,7 @@
 
 <li class="menu-item">
 
-<a href="sct.html"> <img src="img/menu/sct-menu.jpg" class="mx-auto d-block" alt=""> <h6>Santa Clara Tower</h6></a>
+<a href="sct.html"> <img src="img/menu/sct-menu.jpg" class="mx-auto d-block" alt=""> <h6>Santa Clara Towers</h6></a>
   </li>
       <li class="menu-item"><a href="ccc.html"> <img src="img/menu/ccc-menu.jpg" class="mx-auto d-block" alt=""><h6>Century City Center</h6></a></li>
       <li class="menu-item mx-auto"><a href="broadway-1000.html"> <img src="img/menu/broadway-menu.jpg" class="mx-auto d-block" alt=""><h6>1000 Broadway</h6></a></li>
@@ -198,7 +198,7 @@
       <h3>Check out another project</h3>
     </div>
   </div>
-  <div class="row pb-5">
+  <div class="row pb-4">
     <div class="col-4 ">
        <a href="broadway-1000.html" class="animsition-link">  <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="img/home/1000-broadway.jpg" class="img-fluid b-lazy mx-auto d-block" alt="">
        <h6>1000 Broadway</h6></a>
@@ -210,6 +210,11 @@
     <div class="col-4">
       <a href="ysa.html" class="animsition-link"> <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="img/home/ysa.jpg" class="img-fluid b-lazy mx-auto d-block" alt="">
         <h6>Youth Spirit Artworks</h6> </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mx-auto">
+      <h6 class="copyright">©2021 Julianna Degelman</h6>
     </div>
   </div>
 </div>
@@ -236,9 +241,11 @@ window.bLazy = new Blazy({
 (function(){
     var burger = document.querySelector('.burger-container'),
         header = document.querySelector('.header');
+        body = document.querySelector('body');
 
     burger.onclick = function() {
         header.classList.toggle('menu-opened');
+        body.classList.toggle('content-hidden');
     }
 }());
 </script>
