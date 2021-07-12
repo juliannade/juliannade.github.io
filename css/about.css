@@ -75,6 +75,7 @@ font-weight: 500;
 
   .portfolio{
     max-width: 1200px;
+
   }
 
 
@@ -84,6 +85,10 @@ font-weight: 500;
   margin-bottom: 1rem;
 }
 
+.copyright{
+  font-size: .6rem;
+  margin-left: 10px;
+}
 
 @media (max-height: 770px) and (min-width: 760px) {
 

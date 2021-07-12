@@ -13,7 +13,7 @@ h1, h2 {
 
 h1{
   font-size: 4rem;
-  margin-top: calc(15% - 58px);
+  margin-top: 8%;
   margin-bottom: 3.5rem;
 }
 
@@ -26,10 +26,7 @@ h6, h5{
   font-family: 'Quicksand', sans-serif;
 }
 
-h5 {
 
-
-}
 
 
 .round-radius{
@@ -62,6 +59,10 @@ font-weight: 500;
   box-shadow: 2px 2px 5px #6f6f6f;
 }
 
+.copyright{
+  font-size: .6rem;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
 
 h1 {
@@ -80,4 +81,29 @@ h1 {
   .bg-white{
     background-color: transparent !important;
   }
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+.portfolio{
+  max-width: 1000px;
+}
+
+h1{
+  font-size: 3.5rem;
+}
+
+}
+
+
+
+@media (min-width: 1441px) {
+
+h1{
+margin-top: 10%;
+  margin-bottom: 6rem;
+}
+
 }
