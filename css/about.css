@@ -63,6 +63,9 @@ p {
   height: 70px;
 }
 
+.dropdown-item:active {background: #ffffff !important; color: #000;}
+.dropdown-item:focus {background: #ffffff!important; color:#000; }
+
 .nav{
   margin-right: 130px;
 }
