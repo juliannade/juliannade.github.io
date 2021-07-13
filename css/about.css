@@ -81,6 +81,17 @@ font-weight: 500;
 
   }
 
+a{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+  font-weight: 500;
+}
+
+a:hover{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+  font-weight: 500;
+}
 
 
 .top-project{
