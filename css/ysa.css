@@ -1,7 +1,7 @@
 .header-img{
-  background-image: url(../img/ysa/heroysa2.jpg);
-  background-size: contain;
-  background-position: center;
+  background-image: url(../img/ysa/nugs-background.png);
+  background-size: cover;
+  background-position: top left;
   background-repeat: no-repeat;
   background-color: #F2F0F1;
 }
